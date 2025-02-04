@@ -1,13 +1,11 @@
-# Arithmetic Formatter 🧮 
+# Arithmetic Formatter 🧮  
 A simple Python script that formats arithmetic problems into a structured layout.
 
-## Features
+## Features  
 - Accepts up to **five** arithmetic problems as input.  
 - Supports **addition (+) and subtraction (-)** only.  
 - Formats problems with correct spacing and alignment.  
 - Optionally **displays answers** when requested.  
-
----
 
 ## Example Output 🖥️  
 This script takes arithmetic problems as input and arranges them neatly.
@@ -17,12 +15,15 @@ This script takes arithmetic problems as input and arranges them neatly.
 from arithmetic_arranger import arithmetic_arranger
 
 print(arithmetic_arranger(["32 + 698", "3801 - 2", "45 + 43", "123 + 49"], True))
----
+```
+
 ### ✅ Expected Output:
+```
    32      3801      45      123
 + 698    -    2    + 43    +  49
 -----    ------    ----    -----
   730      3799      88      172
+```
 
 ## How to Run the Script 🚀  
 Clone the repository, navigate to the directory, and run the script.
@@ -36,11 +37,13 @@ cd arithmetic-formatter-python
 
 # Run the script
 python arithmetic_arranger.py
+```
 
-## 🔬 Unit Testing (Optional but Recommended)
-To test the script, run:
+## 🔬 Unit Testing
+To test the script, run:  
 ```bash
 python test_arithmetic_arranger.py
+```
 
 ## 🚀 Future Enhancements  
 - Add support for **multiplication and division**.  
